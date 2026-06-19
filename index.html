@@ -9,8 +9,8 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Barlow:wght@300;400;500;600&family=Barlow+Condensed:wght@400;500;600;700;800&display=swap" rel="stylesheet">
 <style>
-@font-face{font-family:'Vinila';src:url(assets/fonts/Vinila-Black.woff2) format('woff2');font-weight:900;font-display:swap;unicode-range:U+0020-007E}
-@font-face{font-family:'Vinila';src:url(assets/fonts/Vinila-Bold.woff2) format('woff2');font-weight:700;font-display:swap;unicode-range:U+0020-007E}
+@font-face{font-family:'Vinila';src:url(Vinila-Black.woff2) format('woff2');font-weight:900;font-display:swap;unicode-range:U+0020-007E}
+@font-face{font-family:'Vinila';src:url(Vinila-Bold.woff2) format('woff2');font-weight:700;font-display:swap;unicode-range:U+0020-007E}
 :root{
   --verde:#23301A; --verde2:#2d3d21; --crema:#EAE7DE; --crema2:#f3f1ea;
   --amarillo:#D8D13D; --menta:#93E483; --carbon:#49494A;
@@ -43,7 +43,7 @@ a{color:inherit}
 
 /* ===== HERO (Opcion A: verde protagonista + menta) ===== */
 .hero{position:relative;min-height:90vh;display:flex;align-items:center;overflow:hidden;background:var(--verde)}
-.hero .bg{position:absolute;inset:0;background:url(assets/img/hero.jpg) center/cover;filter:saturate(.42) contrast(1.05) brightness(.9)}
+.hero .bg{position:absolute;inset:0;background:url(hero.jpg) center/cover;filter:saturate(.42) contrast(1.05) brightness(.9)}
 .hero .ov1{position:absolute;inset:0;background:var(--verde);mix-blend-mode:multiply;opacity:.55}
 .hero .ov2{position:absolute;inset:0;background:linear-gradient(90deg,rgba(28,38,21,.92),rgba(28,38,21,.55) 55%,rgba(28,38,21,.12))}
 .hero .wrap{position:relative;z-index:2;color:var(--crema);padding:96px 28px;width:100%}
@@ -101,7 +101,7 @@ h2{font-family:var(--display);font-weight:700;font-size:clamp(28px,4.4vw,48px);l
 .card a{margin-top:20px;font-family:var(--tag);font-weight:600;font-size:15px;color:var(--verde);text-decoration:none;border-bottom:2px solid var(--amarillo);padding-bottom:2px;align-self:flex-start}
 
 /* ACENTO amarillo (lapacho) */
-.accent{position:relative;background:linear-gradient(90deg,rgba(216,209,61,.95),rgba(216,209,61,.55)),url(assets/img/lapacho.jpg);background-size:cover;background-position:center;padding:86px 0}
+.accent{position:relative;background:linear-gradient(90deg,rgba(216,209,61,.95),rgba(216,209,61,.55)),url(lapacho.jpg);background-size:cover;background-position:center;padding:86px 0}
 .accent .big{font-family:var(--display);font-weight:900;font-size:clamp(28px,4.6vw,48px);color:var(--verde);line-height:1;max-width:18ch}
 .accent small{font-family:var(--tag);font-weight:600;letter-spacing:.18em;text-transform:uppercase;color:var(--verde);opacity:.7;display:block;margin-top:14px;font-size:13px}
 
@@ -154,7 +154,7 @@ footer .right{text-align:right;font-family:var(--tag);letter-spacing:.04em}
 
 <!-- NAV -->
 <nav class="nav"><div class="wrap">
-  <a href="#"><img src="assets/img/logo-blanco.png" alt="RestoreData"></a>
+  <a href="#"><img src="logo-blanco.png" alt="RestoreData"></a>
   <ul class="links">
     <li><a href="#problema" data-i="nav1">El problema</a></li>
     <li><a href="#como" data-i="nav2">Cómo funciona</a></li>
@@ -189,7 +189,7 @@ footer .right{text-align:right;font-family:var(--tag);letter-spacing:.04em}
 <!-- PROBLEMA -->
 <section id="problema"><div class="wrap"><div class="split">
   <div class="figure">
-    <img src="assets/img/problema.jpg" alt="Trabajo de campo en un proyecto de restauración">
+    <img src="problema.jpg" alt="Trabajo de campo en un proyecto de restauración">
     <span class="flab" data-i="flab1">Trabajo de campo</span>
   </div>
   <div>
@@ -210,7 +210,7 @@ footer .right{text-align:right;font-family:var(--tag);letter-spacing:.04em}
     <div class="step"><div class="n">03</div><h3 data-i="s3h">Monitoreo y decisiones</h3><p data-i="s3p">Seguimos cada individuo en el tiempo y convertimos los datos en decisiones medibles y reportables.</p></div>
   </div>
   <div class="figure howfig">
-    <img src="assets/img/datos.jpg" alt="Plantín nativo etiquetado para seguimiento individual">
+    <img src="datos.jpg" alt="Plantín nativo etiquetado para seguimiento individual">
     <span class="flab" data-i="flab2">Cada planta, un dato</span>
   </div>
 </div></section>
@@ -241,7 +241,7 @@ footer .right{text-align:right;font-family:var(--tag);letter-spacing:.04em}
     <p class="refs" data-i="v_refs"><b>Validación en campo:</b> Cerro Otto, Neuquén (datos de supervivencia, con consentimiento).<br><b>Base publicada:</b> Montiel et al. 2021, <i>Restoration Ecology</i>.</p>
   </div>
   <div class="figure">
-    <img src="assets/img/validacion.jpg" alt="Medición en campo en un sitio de restauración">
+    <img src="validacion.jpg" alt="Medición en campo en un sitio de restauración">
     <span class="flab" data-i="flab3">Medición en campo</span>
   </div>
 </div></div></section>
@@ -278,7 +278,7 @@ footer .right{text-align:right;font-family:var(--tag);letter-spacing:.04em}
 
 <footer><div class="wrap">
   <div>
-    <img src="assets/img/logo-blanco.png" alt="RestoreData">
+    <img src="logo-blanco.png" alt="RestoreData">
     <div class="tagline">Datos claros, decisiones seguras</div>
   </div>
   <div class="right">
