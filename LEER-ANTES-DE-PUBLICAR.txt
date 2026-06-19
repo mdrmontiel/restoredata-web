@@ -1,0 +1,22 @@
+RestoreData — sitio web (carpeta lista para el repo)
+=====================================================
+
+CÓMO PUBLICAR
+- Subí el contenido de esta carpeta a la raíz de la rama `main` del repo
+  que sirve restoredata.org (index.html + carpeta assets/).
+- GitHub Pages lo publica igual que antes (Settings > Pages: main / root).
+
+ANTES DE PUBLICAR — 3 cosas por confirmar:
+1) FUENTE VINILA: en assets/fonts/ están las versiones de PRUEBA (trial),
+   que NO tienen tilde/ñ y NO tienen licencia para producción. Pedile a
+   Studio Florand la Vinila licenciada en .woff2 y reemplazá los dos
+   archivos con el MISMO nombre (Vinila-Black.woff2 / Vinila-Bold.woff2).
+   Hasta entonces, las tildes de los títulos caen en Barlow Condensed.
+2) EQUIPO: verificá nombres y roles antes de publicar
+   (Rosario Montiel, Federico Alegre, Florencia Borfitz, Elena/Gerónimo Fisch).
+3) FOTOS: confirmá consentimiento de las personas identificables.
+
+NOTAS
+- El video todavía NO está incluido. Si lo querés de fondo del hero,
+  guardalo en assets/img/hero.mp4 y te paso el ajuste.
+- Bilingüe ES/EN con el botón del nav. SPEI no aparece. Sin precios.
